@@ -1,0 +1,290 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 12000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.Judul {
+  max-width: 12000px;
+  margin: 0 auto;
+  padding: 0 20px;
+		text-align: center;
+}
+
+.Menuhub {
+  max-width: 1200px;
+  text-align: right;
+		
+}
+
+header {
+  background-color: #333;
+  color: #ffff;
+  padding: 20px 9px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 14px;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 160px 0;
+  background-color: #f4f4f4;
+}
+
+.hero h2 {
+  margin-bottom: 20px;
+}
+
+.Logo img {
+  width: 100px; /* Atur lebar gambar sesuai kebutuhan */
+  height: auto; /* Biarkan tinggi gambar menyesuaikan secara proporsional */
+  margin-top: -50px; /* Menggeser gambar ke atas sebesar 5px */
+  position: relative;
+}
+
+.Gedung img {
+  width: 250px; /* Atur lebar gambar sesuai kebutuhan */
+  height: auto; /* Biarkan tinggi gambar menyesuaikan secara proporsional */
+  margin-top: 20px; /* Menggeser gambar ke atas sebesar 5px */
+  position: relative;
+}
+
+.box {
+  border: solid black;
+		border-radius: 10px;
+  padding: 2px;
+		margin-top: 30px;
+  text-align: center;
+}
+
+.box img {
+  width: 290px;
+  height: auto;
+		border-radius: 5px;
+}
+
+.box p {
+  margin-top: 15px;
+		font-weight: bold;
+}
+
+/*brimob*/
+
+/*brimob*/
+
+.brimob {
+  border: null black; /* Properti border yang menyebabkan efek border ganda */
+  border-radius: 10px;
+  padding: 2px;
+  margin-top: 1px;
+  text-align: center;
+}
+
+.brimob img {
+  width: 290px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.brimob p {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.propam {
+		margin-top: 20px;
+}
+
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden; /* Mengatasi overflow konten jika terlalu panjang */
+  margin: 50px auto; /* Mengatur posisi kartu menjadi di tengah dan memberikan spasi di atas dan bawah */
+  margin-bottom: 20px; /* Memberikan spasi bawah untuk setiap kartu */
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  margin-bottom: 10px;
+}
+
+.card-content a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Memberikan spasi antara setiap kartu */
+.card + .card {
+  margin-top: 200px;
+}
+ /* card*/
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden; /* Mengatasi overflow konten jika terlalu panjang */
+  margin: 50px auto; /* Mengatur posisi kartu menjadi di tengah dan memberikan spasi di atas dan bawah */
+  margin-bottom: 20px; /* Memberikan spasi bawah untuk setiap kartu */
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  margin-bottom: 10px;
+}
+
+.card-content a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Memberikan spasi antara setiap kartu */
+.card + .card {
+  margin-top: 200px;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden; /* Mengatasi overflow konten jika terlalu panjang */
+  margin: 10px auto; /* Mengatur posisi kartu menjadi di tengah dan memberikan spasi di atas dan bawah */
+  margin-bottom: 20px; /* Memberikan spasi bawah untuk setiap kartu */
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  margin-bottom: 10px;
+}
+
+.card-content a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container {
+		margin-bottom: 20px;
+}
+
+/* Memberikan spasi antara setiap kartu */
+.card + .card {
+  margin-top: 20px;
+}
+
+.main-report {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 11px;
+		margin: 20px;
+		border: solid 1px black;
+		
+}
+.report-box {
+		margin: 20px;
+}
+
+.report  {
+		background-color: whitesmoke;
+  font-weight: bold;
+		
+}
+
+.repbox, .mess {
+		color: black;
+}
+
+.img-report {
+		width: 100%;
+		
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+}
+
+
